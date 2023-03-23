@@ -1,4 +1,4 @@
-#include "main.h"
+#include<math.h>
 #include<stdio.h>
 
 /**
@@ -21,4 +21,4 @@ int main(void)
 	}
 	printf("%ld\n", maxf);
 	return (0);
-}
+i}
