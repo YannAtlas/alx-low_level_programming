@@ -8,16 +8,16 @@
 
 void print_rev(char *s)
 {
-	int i = 0;
+	int li = 0;
 	int o;
 
-	while (*s != '\n')
+	while (*s != '\0')
 	{
-		i++;
+		li++;
 		s++;
 	}
 	s--;
-	for (o = i; o > 0; o--;)
+	for (o = li; o > 0; o--;)
 	{
 		_putchat(*s);
 		s--;
