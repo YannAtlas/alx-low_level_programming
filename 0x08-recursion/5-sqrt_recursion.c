@@ -31,4 +31,4 @@ int _sqrt_bissect(int n, int i)
 	if (i * i == n)
 		return (i);
 	return (_sqrt_bissect(n, i + 1));
-
+}
